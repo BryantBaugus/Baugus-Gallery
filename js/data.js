@@ -125,7 +125,7 @@ export const PROJECTS = [
     lat: 30.65, lng: -89.20
   },
   {
-    id: 'uav', title: 'Tool We Use', category: 'Research', tagColor: 'blue',
+    id: 'uav', title: 'Tools We Use', category: 'Research', tagColor: 'blue',
     role: 'Author — MLA Thesis, Dept. of Landscape Architecture, Mississippi State University',
     description: 'Published research on UAV applications in landscape architecture, in MDPI, comparing UAV and photogrammetry workflows against traditional survey methods for early-stage site documentation at small firms.',
     ratio: '4/3', span: 'span 1', image: 'assets/img/uav/01-thesis-title.jpg',
