@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bryant Baugus — Urban Designer</title>
+<meta name="description" content="Portfolio of Bryant Baugus, an urban designer working across landscape architecture, architecture, and urban design projects in Mississippi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <span class="wordmark">Bryant Baugus</span>
+  <div class="nav-links">
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+
+<section class="hero" id="hero">
+  <img src="assets/img/hero.jpg" alt="Rendered public space, project by Bryant Baugus">
+  <div class="hero-overlay"></div>
+  <div class="hero-card">
+    <h1>Bryant Baugus</h1>
+    <p class="kicker">Urban Designer</p>
+    <p class="tagline">Designing parks, streets, and public spaces that give communities wonderful places to gather.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <div id="projects-root"></div>
+</section>
+
+<section id="about">
+  <div class="section-header align-center">
+    <p class="kicker">About</p>
+    <h2 class="title">About</h2>
+    <div class="rule"></div>
+  </div>
+  <p class="about-bio">Bryant Baugus is an urban designer with CPLA Design+Planning, working across landscape architecture and architecture projects throughout Mississippi — from civic streetscapes and campus visioning to transit-oriented redevelopment. He holds an MLA and BArch from Mississippi State University; his thesis, "Tools We Use," evaluated UAV and photogrammetry workflows for early-stage site documentation at small landscape architecture firms, later published in Architecture and presented at the CELA Conference in Portland, Oregon. He is an Associate Member of the American Society of Landscape Architects and the American Institute of Architects, holds an FAA Part 107 remote pilot license, and serves as Evening Worship Coordinator at Grace Presbyterian Church in Starkville.</p>
+  <div class="about-actions">
+    <button class="btn-cv" id="cv-open-btn" type="button">CV</button>
+    <a href="https://www.linkedin.com/in/bryant-baugus-04a734350" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+
+<div class="cv-scrim" id="cv-scrim"></div>
+<div class="cv-panel" id="cv-panel">
+  <div class="cv-container" id="cv-container">
+    <p class="cv-loading">Loading CV…</p>
+  </div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.184.0/build/three.module.js",
+    "three/addons/controls/OrbitControls.js": "https://unpkg.com/three@0.184.0/examples/jsm/controls/OrbitControls.js"
+  }
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js" integrity="sha384-Ukv1p/xTma6P4/2bY5KzWBw+ydSpXmhCMtyciIQVDJ1RmOxtCYNMF1uXT9T63H67" crossorigin="anonymous"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
