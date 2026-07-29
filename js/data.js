@@ -140,6 +140,20 @@ export const PROJECTS = [
     lat: 33.25, lng: -88.60
   },
   {
+    id: 'jacksonmasterplan', title: 'Jackson, MS — Urban Master Plan', category: 'Research', tagColor: 'blue',
+    role: 'Researcher — Stuart C. Irby, Jr. Studio, Mississippi State University',
+    description: "An urban master plan for Jackson, Mississippi, drawing on the urban design theories of Christopher Alexander and Lewis Mumford to reestablish a cohesive city 'ground' through standardized infill buildings that bring density, consistent height, and unified street setbacks to the existing urban fabric.",
+    ratio: '16/9', span: 'span 2', image: 'assets/img/jacksonmasterplan/01-analysis.jpg',
+    gallery: [
+      { image: 'assets/img/jacksonmasterplan/01-analysis.jpg', caption: '01 Analysis' },
+      { image: 'assets/img/jacksonmasterplan/02-existing-daylight-town-creek.jpg', caption: '02 Existing + Step I: Daylight Town Creek' },
+      { image: 'assets/img/jacksonmasterplan/03-infill-greenway.jpg', caption: '03 Step II: Infill Buildings + Step III: Add Greenway' },
+      { image: 'assets/img/jacksonmasterplan/04-route-map-purpose-statement.png', caption: '04 Route Map & Purpose Statement' },
+      { image: 'assets/img/jacksonmasterplan/05-regional-transit-corridor.jpg', caption: '05 Regional Transit Corridor' }
+    ],
+    lat: 32.2988, lng: -90.1848
+  },
+  {
     id: 'jlr', title: 'JLR — Jackson Light Rail', category: 'Research', tagColor: 'blue',
     role: 'Designer — Academic Research Proposal, Mississippi State University',
     description: 'A transit-oriented development proposal built around a light rail line proposed for Jackson, Mississippi, imagining a station typology that connects the urban core to its surrounding neighborhoods.',
